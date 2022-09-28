@@ -139,7 +139,7 @@ Branch filters allow filtering commit notifications. By default when you subscri
 
 You can unsubscribe commits feature using `@github unsubscribe org/repo commits.
 
-*Note*: Previously we you might have used `commits:all` to represent all branches. 'all' is no longer a reserved keyword. Going forward, you need to use '*' to represent all branches. If you have already configured with 'commits:all' previosly, dont worry, it will continue to work until you update the commits configuration.
+*Note*: Previously you might have used `commits:all` to represent all branches. 'all' is no longer a reserved keyword. Going forward, you need to use '*' to represent all branches. If you have already configured with 'commits:all' previosly, dont worry, it will continue to work until you update the commits configuration.
 
 
 #### Label filters for prs and issues
@@ -288,7 +288,9 @@ Personal scheduled reminders are configured as part of your GitHub personal app 
 You can configure scheduled reminders for pending pull requests as part of your Slack channels so that your team can stay on top of your work. For a given Slack channel, you can configure scheduled reminders for your organization or your team. For more details about configuring scheduled reminders, you should visit, [organization level reminders](https://docs.github.com/en/organizations/managing-organization-settings/managing-scheduled-reminders-for-your-organization) and [team level reminders](https://docs.github.com/en/organizations/organizing-members-into-teams/managing-scheduled-reminders-for-your-team). 
 
 ### Enterprise Grid
-If you are on Slack Enterprise Grid and have multiple Slack workspaces in your organization where you need to use GitHub, you can install and manage your GitHub app on Slack Enterprise Grid. Org owners and Org admins in Slack Enterprise grid can:
+If you are on Slack Enterprise Grid and have multiple Slack workspaces in your organization where you need to use GitHub, you can inst
+
+and manage your GitHub app on Slack Enterprise Grid. Org owners and Org admins in Slack Enterprise grid can:
 
 1. Install the GitHub app at the org level and choose which workspaces you want to add/remove the GitHub app
 <p align="left"><img width="500" alt="Install" src="docs/images/GridInstall.PNG"></p>
